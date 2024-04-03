@@ -30,12 +30,14 @@ int main() {
         cin >> mhs[i].umur;
     }
 
-    
-    cout <<  endl;
-    cout << "\n NIM     :  " <<mhs[i].nim ;
-    cout << "\n Nama    :  " <<mhs[i].nama ;
-    cout << "\n Alamat  :  " ;
-    cout << "\n\t desa :  "  <<mhs[i].alamat.desa;
-    cout << "\n\t kota  :  " <<mhs[i].alamat.kota ;
-    cout << "\n Umur    :  " <<mhs[i].umur ;
+    for (int i;i<3;i++)
+    {
+        cout <<  endl;
+        cout << "\n NIM     :  " <<mhs[i].nim ;
+        cout << "\n Nama    :  " <<mhs[i].nama ;
+        cout << "\n Alamat  :  " ;
+        cout << "\n\t desa :  "  <<mhs[i].alamat.desa;
+        cout << "\n\t kota  :  " <<mhs[i].alamat.kota ;
+        cout << "\n Umur    :  " <<mhs[i].umur ;
+    }
 }
