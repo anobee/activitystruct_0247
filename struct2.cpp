@@ -19,7 +19,10 @@ int main() {
     cout << "Nama Mahasiswa : ";
     cin >> mhs.nama;
     cout << "alamat Mahasiswa : ";
-    cin >> mhs.alamat;
+    cout << "\t Nama desa  : ";
+    cin >> mhs.alamat.desa;
+    cout << "\t Nama desa  : ";
+    cin >> mhs.alamat.desa;
     cout << "umur Mahasiswa : ";
     cin >> mhs.umur;
 
