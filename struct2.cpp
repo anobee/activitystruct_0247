@@ -8,6 +8,6 @@ struct detailalamat{
 struct Mahasiswa {
     string nim;
     string nama;
-    string alamat;
+    detailalamat alamat;
     string umur;
 };
