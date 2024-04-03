@@ -17,6 +17,7 @@ int main() {
     Mahasiswa mhs [3];
     for (int i=0;i<3;i++)
     {
+        cout << "data ke-" << i+1
         cout << "Nomor Mahasiswa : ";
         getline (cin,mhs[i].nim);
         cout << "Nama Mahasiswa : ";
@@ -28,6 +29,7 @@ int main() {
         cin >> mhs[i].alamat.kota;
         cout << "umur Mahasiswa : ";
         cin >> mhs[i].umur;
+        cin.ignore (1,'\n')
     }
 
     for (int i;i<3;i++)
