@@ -18,12 +18,12 @@ int main() {
     cout << "Nomor Mahasiswa : ";
     cin >> mhs.nim;
     cout << "Nama Mahasiswa : ";
-    cin >> mhs.nama;
+    getline (cin,mhs.nama) ;
     cout << "alamat Mahasiswa : " <<endl ;
     cout << "\t Nama desa  : ";
     cin >> mhs.alamat.desa;
     cout << "\t Nama kota  : ";
-    getline >> mhs.alamat.kota;
+    cin >> mhs.alamat.kota;
     cout << "umur Mahasiswa : ";
     cin >> mhs.umur;
 
