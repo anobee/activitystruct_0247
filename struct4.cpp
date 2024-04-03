@@ -18,24 +18,24 @@ int main() {
     for (int i=0;i<3;1++)
     {
         cout << "Nomor Mahasiswa : ";
-        getline (cin,mhs.nim);
+        getline (cin,mhs[i].nim);
         cout << "Nama Mahasiswa : ";
-        getline (cin,mhs.nama) ;
+        getline (cin,mhs[i].nama) ;
         cout << "alamat Mahasiswa : " <<endl ;
         cout << "\t Nama desa  : ";
-        cin >> mhs.alamat.desa;
+        cin >> mhs[i].alamat.desa;
         cout << "\t Nama kota  : ";
-        cin >> mhs.alamat.kota;
+        cin >> mhs[i].alamat.kota;
         cout << "umur Mahasiswa : ";
-        cin >> mhs.umur;
+        cin >> mhs[i].umur;
     }
 
     
     cout <<  endl;
-    cout << "\n NIM     :  " <<mhs.nim ;
-    cout << "\n Nama    :  " <<mhs.nama ;
+    cout << "\n NIM     :  " <<mhs[i].nim ;
+    cout << "\n Nama    :  " <<mhs[i].nama ;
     cout << "\n Alamat  :  " ;
-    cout << "\n\t desa :  "  <<mhs.alamat.desa;
-    cout << "\n\t kota  :  " <<mhs.alamat.kota ;
-    cout << "\n Umur    :  " <<mhs.umur ;
+    cout << "\n\t desa :  "  <<mhs[i].alamat.desa;
+    cout << "\n\t kota  :  " <<mhs[i].alamat.kota ;
+    cout << "\n Umur    :  " <<mhs[i].umur ;
 }
