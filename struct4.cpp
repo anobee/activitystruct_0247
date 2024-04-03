@@ -29,7 +29,8 @@ int main() {
         cin >> mhs[i].alamat.kota;
         cout << "umur Mahasiswa : ";
         cin >> mhs[i].umur;
-        cin.ignore (1,'\n')
+        cin.ignore (1,'\n');
+        cout << endl;
     }
 
     for (int i;i<3;i++)
