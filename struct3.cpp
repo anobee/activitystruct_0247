@@ -8,7 +8,7 @@ struct detailalamat{
 
 struct Mahasiswa {
     string nim;
-    char nama;
+    string nama;
     detailalamat alamat;
     string umur;
 };
@@ -23,7 +23,7 @@ int main() {
     cout << "\t Nama desa  : ";
     cin >> mhs.alamat.desa;
     cout << "\t Nama kota  : ";
-    cin >> mhs.alamat.kota;
+    getline >> mhs.alamat.kota;
     cout << "umur Mahasiswa : ";
     cin >> mhs.umur;
 
